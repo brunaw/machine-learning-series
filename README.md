@@ -1,1 +1,1 @@
-# machine-learning-serie
+# machine-learning-series
