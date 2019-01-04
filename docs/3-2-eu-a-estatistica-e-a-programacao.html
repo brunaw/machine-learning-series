@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>3.2 Eu, a Estatística e a programação | Machine Learning Posts</title>
+  <meta name="description" content="Book">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="3.2 Eu, a Estatística e a programação | Machine Learning Posts />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Book" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3.2 Eu, a Estatística e a programação | Machine Learning Posts />
+  
+  <meta name="twitter:description" content="Book" />
+  
+
+
+
+<meta name="date" content="2019-01-04">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="3-1-manifesto-tidy.html">
+<link rel="next" href="4-portuguese.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Como faz no R</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="2-objetivos.html"><a href="2-objetivos.html"><i class="fa fa-check"></i><b>2</b> Posts</a></li>
+<li class="chapter" data-level="3" data-path="3-english.html"><a href="3-english.html"><i class="fa fa-check"></i><b>3</b> English</a><ul>
+<li class="chapter" data-level="3.1" data-path="3-1-manifesto-tidy.html"><a href="3-1-manifesto-tidy.html"><i class="fa fa-check"></i><b>3.1</b> Manifesto tidy</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="3-1-manifesto-tidy.html"><a href="3-1-manifesto-tidy.html#reutilizar-estruturas-de-dados-existentes"><i class="fa fa-check"></i><b>3.1.1</b> Reutilizar estruturas de dados existentes</a></li>
+<li class="chapter" data-level="3.1.2" data-path="3-1-manifesto-tidy.html"><a href="3-1-manifesto-tidy.html#organizar-funcoes-simples-usando-o-pipe"><i class="fa fa-check"></i><b>3.1.2</b> Organizar funções simples usando o <em>pipe</em></a></li>
+<li class="chapter" data-level="3.1.3" data-path="3-1-manifesto-tidy.html"><a href="3-1-manifesto-tidy.html#aderir-a-programacao-funcional"><i class="fa fa-check"></i><b>3.1.3</b> Aderir à programação funcional</a></li>
+<li class="chapter" data-level="3.1.4" data-path="3-1-manifesto-tidy.html"><a href="3-1-manifesto-tidy.html#projetado-para-ser-usado-por-seres-humanos"><i class="fa fa-check"></i><b>3.1.4</b> Projetado para ser usado por seres humanos</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="3-2-eu-a-estatistica-e-a-programacao.html"><a href="3-2-eu-a-estatistica-e-a-programacao.html"><i class="fa fa-check"></i><b>3.2</b> Eu, a Estatística e a programação</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-portuguese.html"><a href="4-portuguese.html"><i class="fa fa-check"></i><b>4</b> Portuguese</a><ul>
+<li class="chapter" data-level="4.1" data-path="4-1-organizacao.html"><a href="4-1-organizacao.html"><i class="fa fa-check"></i><b>4.1</b> Organização</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="5-blogs.html"><a href="5-blogs.html"><i class="fa fa-check"></i><b>5</b> Blogs</a></li>
+<li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referências</a></li>
+<li class="chapter" data-level="6" data-path="6-definicao.html"><a href="6-definicao.html"><i class="fa fa-check"></i><b>6</b> Definição</a><ul>
+<li class="chapter" data-level="6.1" data-path="6-1-holdout.html"><a href="6-1-holdout.html"><i class="fa fa-check"></i><b>6.1</b> Holdout</a></li>
+<li class="chapter" data-level="6.2" data-path="6-2-k-fold.html"><a href="6-2-k-fold.html"><i class="fa fa-check"></i><b>6.2</b> K-fold</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="7-exemplo-de-utilizacao.html"><a href="7-exemplo-de-utilizacao.html"><i class="fa fa-check"></i><b>7</b> Exemplo de Utilização</a><ul>
+<li class="chapter" data-level="7.1" data-path="7-1-validacao-cruzada-para-encontrar-o-numero-de-graus-de-liberdade.html"><a href="7-1-validacao-cruzada-para-encontrar-o-numero-de-graus-de-liberdade.html"><i class="fa fa-check"></i><b>7.1</b> Validação cruzada para encontrar o número de graus de liberdade</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://bookdown.org" target="blank">Made with <font color="red">❤</font>️ using <strong> bookdown</strong></a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Machine Learning Posts</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="eu-a-estatistica-e-a-programacao" class="section level2">
+<h2><span class="header-section-number">3.2</span> Eu, a Estatística e a programação</h2>
+<blockquote>
+<p>— Não sabia que nessa cidade a cada 20 minutos atropelam um homem? <br>
+— Nossa! E como está o coitado?</p>
+</blockquote>
+<p>O <a href="https://youtu.be/UbRNe4OGXcQ?t=634">episódio “Estatísticas”</a> do Chaves foi o meu primeiro contato com o conceito de Estatística (pelo menos que eu possa me lembrar). Claro que naquela época, com 5 ou 6 anos, eu nunca imaginaria que seria essa a minha profissão. Assim como o Quico e o Chaves, eu não fazia muita ideia do que as “senhoras estatísticas”&quot; eram e continuei sem saber de fato até entrar na graduação, em 2007.</p>
+<p>Reassistindo o episódio, depois de mais de dez anos estudando a disciplina, me identifiquei bastante com a dificuldade que a Dona Florinda e o Professor Girafales têm para explicar o que são estatísticas, o que antes via apenas como uma escada para as piadas que constroem a cena.</p>
+<p>Quando saio da minha bolha de colegas de faculdade e trabalho, percebo o quanto conceitos básicos de probabilidade e estatística são desconhecidos pela população, mesmo aqueles presentes no dia a dia.</p>
+<p>Recentemente, lendo um comentário de um radialista sobre a derrota do São Paulo para o Coritiba, na rodada 18 do Campeonato Brasileiro, uma frase me chamou atenção.</p>
+<blockquote>
+<p>“Ao iniciar o jogo dessa quinta à noite, o Tricolor, de acordo com as estatísticas, tinha 1,78% de chances de vencer o Coritiba.”</p>
+</blockquote>
+<p>A tese do radialista é que a probabilidade dos quatro grandes times de São Paulo vencerem na mesma rodada do campeonato é de 1,78%, a frequência relativa desse evento na era de pontos corridos do Campeonato Brasileiro. Como o São Paulo foi o último grande a jogar e os outros três já haviam vencido, o pobre tricolor paulista teve suas chances reduzidas pelas estatísticas e acabou perdendo o jogo.</p>
+<p>Essa interpretação com certeza pode ser refutada por vários motivos, mas o que mais me incomodou foi o desconhecimento de probabilidade condicional, ou simplesmente como novas informações modificam as probabilidades dos eventos.</p>
+<p>Encucado, eu deixei uma resposta, cuja parte central é essa:</p>
+<blockquote>
+<p>Mesmo se considerássemos que a probabilidade dos 4 grandes de SP ganharem numa rodada não dependesse de fatores como a fase dos times, os adversários, o momento do campeonato etc., esse número, 1,78%, seria a probabilidade dos quatro ganharem antes da rodada começar. Dado que já sabemos que os outros três ganharam, e considerando que o resultado desses jogos não influenciam o jogo do SP, a probabilidade do evento em questão ocorrer passa a ser apenas a probabilidade do SP ganhar o jogo dele.</p>
+</blockquote>
+<p>Em seguida, recebi alguns comentários de outros torcedores dizendo (jocosamente) que não tinham entendido nada do que escrevi. Comecei então a refletir sobre o assunto, pensando no quanto a minha explicação poderia estar confusa e de que forma poderia ter explicado melhor, no quanto as pessoas não costumam se esforçar para entender temas que elas não dominam e no quanto a falta de uma base matemática adequada atrapalha nessas horas.</p>
+<p>Eu acredito que a Probabilidade e a Estatística são vítimas da onda do “é legal odiar Matemática”, que muitas pessoas se orgulham de surfar. Crianças saem da escola com um conhecimento superficial dessas disciplinas (quando muito!), achando que é tudo uma questão de jogar dados, calcular médias e fazer gráficos. Comunicadores sofrem para interpretar os números de uma pesquisa e pesquisadores encaram a análise estatística como o grande vilão que os separa da publicação.</p>
+<p>Felizmente, esse comportamento vem mudando, mesmo que a passos lentos. Profissionais estão buscando cursos de <em>data science</em> e programação, empresas estão promovendo cursos para qualificarem seus funcionários e o mercado para estatísticos continua um céu estrelado, tanto para analistas e programadores quanto para educadores.</p>
+<p>Eu vejo essa mudança, e as pessoas ao meu redor também a veem. Mas o exemplo que citei acima me faz acreditar que preciso espiar fora da minha bolha.</p>
+<p>Por isso, vou começar uma pequena série de posts, dando a minha opinião sobre algumas coisas que orbitam a educação estatística e a programação, com o objetivo de gerar reflexão e discussão sobre o assunto. A Estatística vem crescendo como carreira, o estatístico vem se tornando cada vez mais protagonista, e vejo esse momento como o ideal para melhorarmos a educação da nossa disciplina.</p>
+<p>A minha ideia inicial era fazer um único post, mas na era dos textões, não quero colocar mais um na fila de vocês. Assim, dividirei nos seguintes tópicos:</p>
+<ul>
+<li>Por que amar a Estatística?</li>
+<li>Preconceitos no aprendizado</li>
+<li>Estatística e programação</li>
+</ul>
+<p>Espero que esses posts possam contribuir para mostrarmos para mais gente a importância da Estatística e da Computação e por que amamos tanto trabalhar com essas ciências.</p>
+<p>Até breve!</p>
+</div>
+<!-- </div> -->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="3-1-manifesto-tidy.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="4-portuguese.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/curso-r/livro-blog/edit/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
